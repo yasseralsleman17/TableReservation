@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/res_table_chart"
+        android:title="Table chart" />
+    <item
+        android:id="@+id/reservation"
+        android:title="Reservation" />
+    <item
+        android:id="@+id/chat"
+        android:title="Chat" />
+
+
+</menu>

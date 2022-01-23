@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+    <androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/reservation_list_drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="2dp"
+    android:background="@color/background_color"
+
+    tools:context=".customer.ReservationList"
+        tools:ignore="HardcodedText">
+
+        <include layout="@layout/reservation_list" />
+
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/reservation_list_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:backgroundTint="#99999A"
+            android:scrollbarSize="2dp"
+            app:itemIconSize="15dp"
+            app:menu="@menu/customer_side_menu">
+
+
+        </com.google.android.material.navigation.NavigationView>
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+

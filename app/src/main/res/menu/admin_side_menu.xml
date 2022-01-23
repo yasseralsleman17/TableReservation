@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/restaurant_reristaration"
+        android:title="restaurant Registaration" />
+
+
+    <item
+        android:id="@+id/customer_reristaration"
+        android:title="Customer Registaration" />
+    <item
+        android:id="@+id/view_restaurants"
+        android:title="restaurants" />
+
+
+    <item
+        android:id="@+id/view_customers"
+        android:title="Customers" />
+
+    <item
+        android:id="@+id/view_reservations"
+        android:title="Reservations" />
+
+    <item
+        android:id="@+id/log_out"
+        android:title="Log Out" />
+
+
+</menu>
